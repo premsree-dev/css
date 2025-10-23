@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-side{
+            display: flex;
+            padding: 20px;
+        
+        }
+
+        .right-side{
+            display: flex;
+            color: aliceblue;
+            gap: 5px;
+            padding-top: 20px;
+            border-bottom: 3px solid black;
+            
+        }
+
+        .lists{
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+            color: aliceblue;
+        }
+
+        .right-side button{
+            background-color: brown;
+            color: aliceblue;
+            height: 50px;
+            width: 200px;
+        }
+        .right-side button:hover{
+            background-color: transparent;
+            border-radius: 20px;
+        }
+
+        #line{
+            border-bottom:3px dotted;
+            background-color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <div class="left-side">
+                <div>
+                <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png.webp"/>
+            </div>
+            <div>
+                <ul class="lists">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Program</li>
+                    <li>Who we are</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            </div>
+            <div class="right-side"> 
+                <p>Call us:<span id="line">986755463</span></p>
+                <button> Make a Donation</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
